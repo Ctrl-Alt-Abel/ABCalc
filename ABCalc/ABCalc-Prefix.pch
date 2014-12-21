@@ -1,0 +1,19 @@
+/*************************************************************************/
+/* ABCalc-Prefix.pch
+/*************************************************************************/
+/* Copyright (c) 2014-present, UberBeta
+/*
+/* This source code is licensed under the GNU GPL v2.0 license found in the
+/* LICENSE file in the root directory of this source tree.
+/*************************************************************************/
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
