@@ -1,4 +1,4 @@
-#ABCalc
+# ABCalc
 
 A simple calculator for iOS
 ## License
